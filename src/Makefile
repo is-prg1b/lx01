@@ -12,11 +12,11 @@ Simple.class: simple.scala
 clean:
 	rm -f simple simple.s *.class
 
-run-c:
+run-c: simple
 	./simple
 
-run-s:
+run-s: Simple.class
 	scala Simple
 
-run-j:
+run-j: Simple.class
 	java -classpath `brew --prefix`/opt/scala/libexec/lib/scala-library.jar:. Simple

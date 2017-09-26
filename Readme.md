@@ -12,7 +12,7 @@
 
     上述のふたつのプログラムをビルド、クリーン、実行するためのスクリプト．[Makefile については別途詳述した．](https://is-prg1b.github.io/lecture/note/makefile.html)
 
-    - `make`: ビルド
+    - `make`: すべてのソフトウェアをまとめてビルド
 
     - `make clean`: お掃除
 
@@ -21,4 +21,3 @@
     - `make run-s`: `simple.scala` をビルドして生成された `simple.class` を Scala の実行系を用いて実行
 
     - `make run-j`: `simple.scala` をビルドして生成された `simple.class` を Java の実行系を用いて実行
-
